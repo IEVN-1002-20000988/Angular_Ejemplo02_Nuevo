@@ -10,13 +10,17 @@ import { AgregarComponent } from './utl/agregar/agregar.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
+import { AlumnosComponent } from './utl/alumnos/alumnos.component';
+import { AlumnoFilterPipe } from './alumnos.filter.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     AgregarComponent,
-    HomeComponent
+    HomeComponent,
+    AlumnosComponent,
+    AlumnoFilterPipe
   ],
   imports: [
     BrowserModule,
